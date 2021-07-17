@@ -1,0 +1,67 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Optima", "Arial";
+}
+
+.square{
+    width: 30%;
+    background: yellowgreen;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 25%;
+    transition: background 1.0s;
+}
+
+#container{
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-weight: normal;
+    background-color: teal;
+    margin:0;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#colorDisplay{
+    font-size: 150%;
+}
+
+#strip{
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    background-color: teal;
+    color: white;
+}
+
+button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: teal;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: teal;
+}
+
+#message{
+    display: inline-block;
+    width:20%;
+}
